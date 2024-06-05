@@ -1,0 +1,80 @@
+.anim {
+	-webkit-animation: anim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: anim 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes anim {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes anim {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+  }
+  
+
+  .outanim {
+      
+	-webkit-animation: outanim 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: outanim 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+ @-webkit-keyframes outanim {
+        0% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+          opacity: 1;
+        }
+        100% {
+          -webkit-transform: scale(0);
+                  transform: scale(0);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+          opacity: 1;
+          display: none;
+        }
+      }
+      @keyframes outanim {
+        0% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+          opacity: 1;
+        }
+        100% {
+          -webkit-transform: scale(0);
+                  transform: scale(0);
+          -webkit-transform-origin: 100% 0%;
+                  transform-origin: 100% 0%;
+          opacity: 1;
+          display: none;
+        }
+      }
+      

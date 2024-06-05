@@ -1,0 +1,36 @@
+.commentMessage {
+    height: 8rem;
+    overflow-y: auto;
+
+}
+
+.commentMessage::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.commentMessage::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.commentMessage::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f1f1f1;
+}
+
+.carsoalMine {
+    width: 75vw;
+    /* border: 1px solid; */
+    margin: auto;
+}
+
+.InnerSlide {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.SliderImg {
+    /* object-fit: cover; */
+    border-radius: 20px;
+}

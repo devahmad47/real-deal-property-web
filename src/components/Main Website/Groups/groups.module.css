@@ -1,0 +1,49 @@
+.emojii {
+	-webkit-animation: emojii 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: emojii 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes emojii {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes emojii {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .commentMessage{
+    height: 10rem;
+    overflow-y: auto ;
+    
+    }
+    
+    .commentMessage::-webkit-scrollbar-track {
+      background-color: #f1f1f1;
+    }
+    
+    .commentMessage::-webkit-scrollbar-thumb {
+      background-color: gray;
+      border-radius: 4px;
+    }
+    
+    .commentMessage::-webkit-scrollbar {
+      width: 8px;
+      background-color: #f1f1f1;
+    }

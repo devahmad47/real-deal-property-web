@@ -1,0 +1,12 @@
+.scrollHeight {
+    overflow-y: scroll;
+  }
+  
+  
+  .scrollHeight::-webkit-scrollbar-thumb {
+    background-color: #888;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+  }
+  
