@@ -106,15 +106,15 @@ export function CreatePost() {
     const [createPostData, setCreatePostData] = useState(intialpost)
 
 
-    useEffect(() => {
-        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    // useEffect(() => {
+    //     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-        if (isMobile) {
-            fileInputRef.current.setAttribute('capture', 'camera');
-        } else {
-            fileInputRef.current.removeAttribute('capture');
-        }
-    }, []);
+    //     if (isMobile) {
+    //         fileInputRef.current.setAttribute('capture', 'camera');
+    //     } else {
+    //         fileInputRef.current.removeAttribute('capture');
+    //     }
+    // }, []);
     async function handelSubmit(e) {
         e.preventDefault();
         // props.setOpen(false)
@@ -403,7 +403,7 @@ export function CreatePost() {
                 <input
                     required
                     onChange={handleFileChange}
-                     ref={fileInputRef}
+                    // ref={fileInputRef}
                     type="file"
                     multiple
                     accept="image/*, video/*"
